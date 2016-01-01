@@ -1,0 +1,20 @@
+( Made using CamBam - http://www.cambam.co.uk )
+( mains monitor case 12/22/2015 2:22:45 PM )
+( T16 : 6.0 )
+G21 G90 G91.1 G64 G40
+G0 Z3.0
+( T16 : 6.0 )
+T16 M6
+( 6mm Drill )
+G17
+M3 S1000
+G0 X11.4493 Y113.8232
+G98
+G83 X11.4493 Y113.8232 Z-10.0 Q8.0 R3.0 F50.0
+G83 X46.3744 Z-10.0
+G83 Y2.3455 Z-10.0
+G83 X11.4493 Z-10.0
+G80
+G0 Z3.0
+M5
+M30
