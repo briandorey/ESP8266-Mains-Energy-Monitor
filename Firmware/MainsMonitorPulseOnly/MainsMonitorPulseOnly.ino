@@ -9,8 +9,8 @@
 
 //#define debug
 
-const char *ssid = "yourWIFIssid";
-const char *password = "yourWIFIpassword";
+const char *ssid = "yourWiFissid";
+const char *password = "yourWiFipassword";
 MDNSResponder mdns;
 ESP8266WebServer server(80);
 
